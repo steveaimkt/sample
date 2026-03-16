@@ -13,9 +13,12 @@
 | 클립1 | MCP 서버 설정 | `Part3_엔진세팅/클립1_워크스페이스_권한설정/mcp_settings_예시.json` | 내 config/ 폴더에 복사 후 API 키 입력 |
 | 클립1 | 환경 변수 관리 | `Part3_엔진세팅/클립1_워크스페이스_권한설정/env_예시.env` | `.env`로 이름 변경 후 실제 키 입력 |
 | 클립2 | Manager View 테스트 | `Part3_엔진세팅/클립2_ManagerView_EditorView/manager_view_예시_프롬프트.md` | 프롬프트 복사 → 클로드에 붙여넣기 → 결과 확인 |
+| 클립2 | Manager View 데이터 | `Part3_엔진세팅/클립2_ManagerView_EditorView/sample_data.csv` | 16개 상품 광고 성과 데이터 — Manager View 분석 테스트용 |
 | 클립2 | Editor View 테스트 | `Part3_엔진세팅/클립2_ManagerView_EditorView/editor_view_예시_프롬프트.md` | 프롬프트 복사 → 클로드에 붙여넣기 → 결과 확인 |
 | 클립3 | Workflow 이해 | `Part3_엔진세팅/클립3_Artifacts_Workflow/workflow_예시.md` | 3가지 워크플로 예시 읽고 내 업무에 적용 |
+| 클립3 | Workflow 데이터 | `Part3_엔진세팅/클립3_Artifacts_Workflow/월별_매출데이터_3개월.csv` | 6개 카테고리 3개월 매출 데이터 — 워크플로 실습용 |
 | 클립4 | Plan Mode 테스트 | `Part3_엔진세팅/클립4_PlanMode/plan_mode_실행_예시.md` | "플랜"이라고 입력 → Plan Mode 진입 확인 |
+| 클립4 | Plan Mode 데이터 | `Part3_엔진세팅/클립4_PlanMode/쿠팡_광고_키워드.csv` | 주차별 키워드 광고 성과 — Plan Mode 분석 대상 |
 | 클립5 | SKILL.md 작성 | `Part3_엔진세팅/클립5_SKILL_브랜드가이드/SKILL_예시.md` | 내 브랜드에 맞게 수정 → skills/ 폴더에 저장 |
 
 ---
@@ -27,8 +30,8 @@
 | 클립1 | NotebookLM 소스 등록 | 📄 `Part4_리서치OS/클립1_NotebookLM_MCP연동/비타민C세럼_시장트렌드_리포트_2025.md` | **PDF로 변환** → NotebookLM에 업로드 |
 | 클립1 | NotebookLM 소스 등록 | 📄 `Part4_리서치OS/클립1_NotebookLM_MCP연동/크래프트볼트_제품소개서.md` | **PDF로 변환** → NotebookLM에 업로드 |
 | 클립1 | 연동 가이드 참고 | `Part4_리서치OS/클립1_NotebookLM_MCP연동/notebooklm_연동_가이드.md` | 순서대로 따라하기 |
-| 클립2 | 페르소나 도출 테스트 | `input/고객리뷰_500개.csv` | 클로드에 "이 리뷰를 분석해서 타겟 페르소나를 도출해줘" |
-| 클립2 | 시장 분석 | `input/market_research_data.md` | 클로드에 "이 데이터로 시장 분석 리포트 만들어줘" |
+| 클립2 | 페르소나 도출 테스트 | `Part4_리서치OS/클립2_타겟페르소나_시장분석/고객리뷰_500개.csv` | 클로드에 "이 리뷰를 분석해서 타겟 페르소나를 도출해줘" |
+| 클립2 | 경쟁사 비교 | `Part4_리서치OS/클립2_타겟페르소나_시장분석/경쟁사_비교데이터.csv` | 클로드에 "경쟁사 비교 분석 리포트 만들어줘" |
 | 실습 | 유튜브 댓글 분석 | `Part4_리서치OS/실습_유튜브댓글_인사이트/유튜브_댓글_수집_100개.csv` | 클로드에 "이 댓글 데이터를 분석해서 인사이트 리포트 만들어줘" |
 
 ### PDF 변환 방법 (Mac)
@@ -43,7 +46,7 @@
 
 | 클립 | 실습 내용 | 사용할 파일 | 하는 법 |
 |------|----------|-----------|---------|
-| 클립1 | Pain Point 리서치 | `input/craftvolt_reviews.md` + `input/community_voices.md` | 클로드에 "이 리뷰와 커뮤니티 데이터로 Pain Point 심층 리서치해줘" |
+| 클립1 | Pain Point 리서치 | `Part5_CreativeOS/클립1_PainPoint_심층리서치/비타민C세럼_상품정보.csv` | 클로드에 "이 상품 정보와 리서치 예시를 참고해 Pain Point 심층 리서치해줘" |
 | 클립2 | Agent Debate | 📌 `Part5_CreativeOS/클립2_AgentTeams_Debate/debate_입력_리서치요약.md` | 이 파일 내용을 클로드에 전달 + "마케터 vs 디자이너 토론해줘" |
 | 클립3 | JSON 기획안 생성 | `Part5_CreativeOS/클립3_레이아웃플러그인_피그마MCP/기획안_JSON_예시.json` | 참고용으로 읽고, 클로드에 "내 제품 기획안을 이 JSON 형식으로 만들어줘" |
 | 클립4 | 전체 실습 | `Part5_CreativeOS/클립4_실습_기획to와이어프레임/실습_가이드.md` | Phase 1~4 순서대로 따라하기 |
@@ -57,7 +60,7 @@
 
 ### 테스트 1: 리뷰 분석 (2분)
 ```
-input/고객리뷰_500개.csv를 분석해서
+sample/Part4_리서치OS/클립2_타겟페르소나_시장분석/고객리뷰_500개.csv를 분석해서
 주요 불만 사항 TOP 5와 만족 포인트 TOP 5를 정리해줘.
 ```
 
