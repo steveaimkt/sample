@@ -1,0 +1,36 @@
+{
+  "mcpServers": {
+    "notebooklm": {
+      "command": "npx",
+      "args": ["-y", "notebooklm-mcp"],
+      "env": {
+        "NOTEBOOKLM_API_KEY": "${NOTEBOOKLM_API_KEY}"
+      },
+      "설명": "NotebookLM MCP — PDF/URL/텍스트 소스를 노트북으로 통합 관리"
+    },
+    "google-sheets": {
+      "command": "npx",
+      "args": ["-y", "google-sheets-mcp"],
+      "env": {
+        "GOOGLE_SHEETS_API_KEY": "${GOOGLE_SHEETS_API_KEY}"
+      },
+      "설명": "Google Sheets MCP — 스프레드시트 데이터 읽기/쓰기"
+    },
+    "figma": {
+      "command": "npx",
+      "args": ["-y", "figma-mcp"],
+      "env": {
+        "FIGMA_ACCESS_TOKEN": "${FIGMA_ACCESS_TOKEN}"
+      },
+      "설명": "Figma MCP — 디자인 시안 자동 생성 및 레이아웃 구축"
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["-y", "notion-mcp"],
+      "env": {
+        "NOTION_API_KEY": "${NOTION_API_KEY}"
+      },
+      "설명": "Notion MCP — 문서/데이터베이스 연동"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "product": {
+    "name": "비타민C 세럼 15%",
+    "brand": "글로우랩",
+    "tagline": "30일 신선 보장, 끈적임 ZERO"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_banner",
+      "layout": "split",
+      "content": {
+        "headline": "개봉 2주 만에 누래진 세럼, 이제 그만",
+        "subheadline": "진공 펌프가 산소를 차단해 30일간 첫 날의 신선함",
+        "cta_text": "30일 신선 보장 세럼 보기",
+        "image_left": "before_oxidized_serum.png",
+        "image_right": "after_fresh_serum.png"
+      },
+      "style": {
+        "bg_left": "#f5e6c8",
+        "bg_right": "#ffffff",
+        "text_color": "#1a1a2e"
+      }
+    },
+    {
+      "id": "pain_points",
+      "type": "card_grid",
+      "layout": "3_column",
+      "content": {
+        "title": "이런 고민, 있으셨죠?",
+        "cards": [
+          {
+            "icon": "oxidation_icon",
+            "pain": "2주 만에 세럼 색이 변해요",
+            "solution": "진공 펌프로 산화 완벽 차단"
+          },
+          {
+            "icon": "sticky_icon",
+            "pain": "끈적여서 화장이 밀려요",
+            "solution": "워터 제형, 3초 만에 흡수"
+          },
+          {
+            "icon": "irritation_icon",
+            "pain": "바르면 따갑고 자극돼요",
+            "solution": "pH 3.5 저자극 포뮬러"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ingredients",
+      "type": "icon_grid",
+      "layout": "3_column",
+      "content": {
+        "title": "피부과 전문의가 주목한 3가지 성분",
+        "items": [
+          {
+            "icon": "vitamin_c_molecule",
+            "name": "순수 비타민C 15%",
+            "benefit": "2주 만에 눈에 띄는 톤업 효과",
+            "evidence": "임상 테스트 결과 평균 2.3톤 개선"
+          },
+          {
+            "icon": "hyaluronic_acid",
+            "name": "히알루론산",
+            "benefit": "48시간 지속 보습",
+            "evidence": "수분 보유량 89% 증가"
+          },
+          {
+            "icon": "niacinamide",
+            "name": "나이아신아마이드",
+            "benefit": "모공 & 피지 케어",
+            "evidence": "피지 분비 32% 감소"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reviews",
+      "type": "carousel",
+      "content": {
+        "title": "실제 사용자 후기",
+        "reviews": [
+          {
+            "name": "김**",
+            "rating": 5,
+            "text": "진짜 한 달 써도 색이 안 변해요! 이건 신세계..."
+          },
+          {
+            "name": "이**",
+            "rating": 5,
+            "text": "아침에 발라도 화장 안 밀려요. 워터 타입이라 가볍고 좋아요"
+          },
+          {
+            "name": "박**",
+            "rating": 4,
+            "text": "민감피부인데 자극 없이 잘 쓰고 있어요. 톤업 효과도 체감됩니다"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta_section",
+      "content": {
+        "headline": "지금 시작하세요",
+        "offer": "첫 구매 15% 할인 + 무료 배송",
+        "button_text": "지금 구매하기",
+        "urgency": "오늘 주문 시 내일 도착"
+      },
+      "style": {
+        "bg_color": "#1a1a2e",
+        "button_color": "#e94560",
+        "text_color": "#ffffff"
+      }
+    }
+  ]
+}

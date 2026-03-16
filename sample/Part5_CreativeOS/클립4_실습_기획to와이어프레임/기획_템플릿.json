@@ -1,0 +1,109 @@
+{
+  "product": {
+    "name": "(제품명을 입력하세요)",
+    "brand": "(브랜드명을 입력하세요)",
+    "tagline": "(한 줄 슬로건을 입력하세요)"
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero_banner",
+      "layout": "split 또는 full_width 또는 centered",
+      "content": {
+        "headline": "(Pain Point 공감 헤드라인)",
+        "subheadline": "(솔루션 요약 한 줄)",
+        "cta_text": "(CTA 버튼 텍스트)",
+        "image": "(히어로 이미지 설명)"
+      },
+      "style": {
+        "bg_color": "#000000",
+        "text_color": "#ffffff"
+      }
+    },
+    {
+      "id": "pain_points",
+      "type": "card_grid",
+      "layout": "3_column",
+      "content": {
+        "title": "(섹션 타이틀)",
+        "cards": [
+          {
+            "icon": "(아이콘 설명)",
+            "pain": "(Pain Point 1)",
+            "solution": "(해결 메시지 1)"
+          },
+          {
+            "icon": "(아이콘 설명)",
+            "pain": "(Pain Point 2)",
+            "solution": "(해결 메시지 2)"
+          },
+          {
+            "icon": "(아이콘 설명)",
+            "pain": "(Pain Point 3)",
+            "solution": "(해결 메시지 3)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product_intro",
+      "type": "image_text",
+      "layout": "left_image_right_text",
+      "content": {
+        "title": "(제품 소개 타이틀)",
+        "description": "(제품 핵심 특징 설명)",
+        "features": [
+          "(특징 1)",
+          "(특징 2)",
+          "(특징 3)"
+        ],
+        "image": "(제품 이미지 설명)"
+      }
+    },
+    {
+      "id": "ingredients",
+      "type": "icon_grid",
+      "layout": "3_column",
+      "content": {
+        "title": "(성분/스펙 섹션 타이틀)",
+        "items": [
+          {
+            "icon": "(아이콘)",
+            "name": "(성분/스펙명)",
+            "benefit": "(효과/장점)",
+            "evidence": "(수치 근거)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "reviews",
+      "type": "carousel",
+      "content": {
+        "title": "(후기 섹션 타이틀)",
+        "reviews": [
+          {
+            "name": "(작성자)",
+            "rating": 5,
+            "text": "(후기 내용)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta_section",
+      "content": {
+        "headline": "(마무리 헤드라인)",
+        "offer": "(혜택 내용)",
+        "button_text": "(CTA 버튼 텍스트)",
+        "urgency": "(긴급성 메시지)"
+      },
+      "style": {
+        "bg_color": "#000000",
+        "button_color": "#ff0000",
+        "text_color": "#ffffff"
+      }
+    }
+  ]
+}
